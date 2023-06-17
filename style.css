@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+.contain{
+    position: relative;
+    background-color: rgb(253,209,29);
+    width: 100vw;
+    height: 100vh;
+}
+
+.box{
+    padding-top: 200px;
+    color: white;
+    text-align: center;
+}
+
+#circle{
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+    opacity: 0.4;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+#circle p{
+    margin-top: 40px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end{
+    background-color: rgb(255,85,90);
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100vw;
+}
+.v-shape {
+    position: absolute;
+    background-color: rgb(253,209,29);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg) skew(25deg,25deg);
+    width: 100px; 
+    height: 100px; 
+
+  }
